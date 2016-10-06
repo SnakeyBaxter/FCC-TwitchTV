@@ -1,0 +1,37 @@
+#holder{
+	width: 40%;
+	margin: 0 auto 0 auto;
+}
+
+#offline{
+	display: none;
+	background: #666888;
+	padding: 5px;
+}
+
+#offline div:nth-child(odd) {
+    background: #ff0000;
+    
+}
+
+#offline div:nth-child(even) {
+    background: #0000ff;
+    }
+
+#online{
+	display: none;
+	background-color: green;
+	padding: 5px;
+	
+}
+
+#unknown{
+	display: none;
+	background-color: yellow;
+	padding: 5px;
+}	
+
+#alert{
+	color: red;
+	font-size: 20px;
+}
